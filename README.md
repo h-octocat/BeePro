@@ -11,12 +11,12 @@ In order to setup, first install the requirements:
 pip install -r requirements.txt
 ```
 
-If you would like the dictionary functionality, go to the Merriam Webster dictionary api at dictionaryapi.com and setup an API key. Once you get an API key, create a .env file and add `DICT_API=YOUR_API_KEY`, replacing "YOUR_API_KEY" with your actual API key.
+If you would like the dictionary functionality, go to the Merriam Webster dictionary api at [dictionaryapi.com](https://dictionaryapi.com) and setup an API key. Once you get an API key, create a .env file and add `DICT_API=YOUR_API_KEY`, replacing "YOUR_API_KEY" with your actual API key.
 
 If you do not set up a dictionary key, all requests for a definition will return `definition error`. 
 
 ## Storing words
-All words should be stored as a .txt text file, with each word being seperated by a new line. Here's an example file:
+All setd of words should be stored as a .txt text file, with each word being seperated by a new line. Here's an example file:
 
 ```
 Idiosyncratic
