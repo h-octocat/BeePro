@@ -1,0 +1,4 @@
+unidecode
+gtts
+playsound
+python-dotenv
