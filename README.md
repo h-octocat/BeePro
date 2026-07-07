@@ -16,7 +16,7 @@ If you would like the dictionary functionality, go to the Merriam Webster dictio
 If you do not set up a dictionary key, all requests for a definition will return `definition error`. 
 
 ## Storing words
-All setd of words should be stored as a .txt text file, with each word being seperated by a new line. Here's an example file:
+All sets of words should be stored as a .txt text file, with each word being seperated by a new line. Here's an example file:
 
 ```
 Idiosyncratic
