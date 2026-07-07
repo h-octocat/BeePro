@@ -1,6 +1,15 @@
 # BeePro
 A suite of spelling bee tools that won me the Manhattan spelling bee. Get the full story at henryks.net.
 
+## Features
+BeePro comes with three python scripts: study, test, and removedupes.
+
+Removedupes.py does as the name suggests, removing duplicate words in a text file. 
+
+Study.py helps you study a list of words. It will tell you how to spell a word, read it multiple times, and give you its definition. Then, it will ask you how to spell it.
+
+Test.py drills you on all the words, reading them and asking you to spell them. It has the option to save the words you got wrong in a seperate file at the end.
+
 ## Setup
 BeePro is only compatible with Windows, MacOS, and Linux. Other operating systems won't be able to fully run BeePro.
 
@@ -31,12 +40,3 @@ anemic OR anaemic
 sauerkraut OR sourcrout
 steinkirk OR steenkirk
 ```
-
-## Features
-BeePro comes with three python scripts: study, test, and removedupes.
-
-Removedupes.py does as the name suggests, removing duplicate words in a text file. 
-
-Study.py helps you study a list of words. It will tell you how to spell a word, read it multiple times, and give you its definition. Then, it will ask you how to spell it.
-
-Test.py drills you on all the words, reading them and asking you to spell them. It has the option to save the words you got wrong in a seperate file at the end.
