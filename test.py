@@ -36,7 +36,7 @@ for word in words[:]:
             break
         if response == "stats":
             words_left = len(words) - (words.index(word) + 1)
-            print(f"You have {words_left} words left")
+            print(f"You have {words_left + 1} words left")
         elif response == "def":
             if definition == "definition error":
                 print("Invalid word or definition processing error!")
